@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/custom_edittext">
+    <TextView
+        android:id="@+id/tv_Name_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="9sp"
+        android:textColor="@color/Orange"
+        android:text="Tên khách hàng"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/tv_product_buy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="9sp"
+        android:background="@drawable/custom_edittext"
+        android:textColor="@color/black"
+        android:text="Tên sản phẩm"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/tv_money_payment_product"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="9sp"
+        android:textColor="@color/Orange"
+        android:text="Thanh toán "
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/tv_delivery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="9sp"
+        android:textColor="@color/black"
+        android:text="Thanh toán"
+        android:gravity="center"/>
+
+</LinearLayout>

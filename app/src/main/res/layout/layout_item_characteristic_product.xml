@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/form_option_type_product"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+<androidx.appcompat.widget.AppCompatImageView
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:src="@drawable/logo"
+    android:id="@+id/img_product_in_characteristic"/>
+    <TextView
+        android:id="@+id/tv_color_product_in_characteristic"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="@color/Orange"
+        android:text="Trang"
+        android:textColor="@color/white"
+        android:gravity="center"/>
+    </LinearLayout>
+</LinearLayout>

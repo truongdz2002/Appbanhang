@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    android:background="@drawable/custom_dialog">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:gravity="center"
+        android:textSize="16dp"
+        android:background="@drawable/custom_dialog2"
+        android:textColor="@color/black"
+        android:text="Thông báo"/>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:padding="12dp"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:background="@drawable/custom_dialog_textviewnew"
+        android:textColor="@color/black"
+        android:text="Kết nối của bạn không ổn định, bạn cần kiểm tra lại kết nối củ bạn."/>
+
+    <LinearLayout
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_relogin"
+            android:layout_marginStart="10dp"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:textSize="16dp"
+            android:background="@drawable/custom_button_dialog"
+            android:text="Đăng nhập lại"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_retry"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="Thử lại"
+            android:textSize="16dp"
+            android:background="@drawable/custom_button_dialog"
+            android:layout_marginStart="60dp"/>
+    </LinearLayout>
+</LinearLayout>

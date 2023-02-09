@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/custom_edittext"
+    android:layout_margin="3dp">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/img_product"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:layout_margin="2dp"
+        android:src="@mipmap/ic_launcher"/>
+    <TextView
+        android:id="@+id/name_product"
+        android:layout_marginTop="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="name product"
+        android:textSize="15sp"
+        android:textColor="@color/black"/>
+    <RelativeLayout
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tv_support"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Giảm giá"
+            android:textColor="@color/Orange"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/special_price_product"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="30%"
+            android:layout_marginLeft="2dp"
+            android:textSize="14sp"
+            android:layout_toRightOf="@id/tv_support"
+            android:textColor="@color/Orange"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="%"
+            android:textSize="14sp"
+            android:layout_toRightOf="@id/special_price_product"
+            android:textColor="@color/Orange"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/price_product"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price product"
+            android:textSize="15sp"
+            android:textColor="@color/Orange"/>
+        <TextView
+            android:layout_marginTop="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VND"
+            android:layout_marginLeft="6dp"
+            android:textSize="15sp"
+            android:layout_toRightOf="@id/price_product"
+            android:textColor="@color/Orange"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

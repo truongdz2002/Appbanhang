@@ -1,0 +1,241 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="Fragment.Fragment_Bottom_Sheet_Dialog_Bill_To_Payment">
+
+    <ImageButton
+        android:id="@+id/btn_Close_bottom_sheet_bill_to_payment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@color/nobackground"
+        android:contentDescription="@string/app_name"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        android:src="@drawable/ic_baseline_expand_more_24" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="900dp"
+        android:orientation="vertical"
+        android:layout_margin="30dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/logo"
+                android:background="@color/nobackground"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HÓA ĐƠN MUA HÀNG"
+                android:textColor="@color/Orange"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_marginBottom="30sp"/>
+        </RelativeLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.5"
+                android:gravity="start"
+                android:textSize="14sp"
+                android:text="Mã hóa đơn:"/>
+            <TextView
+                android:id="@+id/tv_CodeBill_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:text="2423552"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.5"
+                android:gravity="start"
+                android:textSize="14sp"
+                android:text="Họ và tên:"/>
+            <TextView
+                android:id="@+id/tv_name_user_bill_to_payment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:text="113122423552"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.5"
+                android:gravity="start"
+                android:textSize="14sp"
+                android:text="Số điện  thoại:"/>
+            <TextView
+                android:id="@+id/tv_TelephoneNumber_bill_to_payment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:text="113122423552"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.5"
+                android:gravity="start"
+                android:text="Địa chỉ nhận:"
+                android:textSize="14sp" />
+            <TextView
+                android:id="@+id/tv_AddressUser_bill_to_payment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:textColor="@color/black"
+                android:text="113122423552"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.5"
+                android:gravity="start"
+                android:textSize="14sp"
+                android:text="Sản phẩm đã mua:"/>
+            <TextView
+                android:id="@+id/tv_name_product_bill_to_payment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:text="113122423552"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/img_product_bill_to_payment"
+                android:layout_width="150dp"
+                android:scaleType="centerCrop"
+                android:layout_height="150dp"
+                android:src="@mipmap/ic_launcher"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.5"
+                android:gravity="start"
+                android:textSize="14sp"
+                android:text="Ngày đặt hàng:"/>
+            <TextView
+                android:id="@+id/tv_OrderDate_bill_to_payment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:text="113122423552"/>
+        </LinearLayout>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_margin="10dp"
+            android:background="@color/Orange" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.5"
+                android:gravity="start"
+                android:textSize="17sp"
+                android:textColor="@color/Orange"
+                android:text="Tổng tiền:"/>
+            <TextView
+                android:id="@+id/tv_Total_bill_to_payment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="17sp"
+                android:textColor="@color/Orange"
+                android:text="113122423552"/>
+        </LinearLayout>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_margin="10dp"
+            android:background="@color/Gray" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_margin="10dp">
+         <androidx.appcompat.widget.AppCompatButton
+             android:id="@+id/btn_paymentOnline_bill_to_payment"
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:textColor="@color/Orange"
+             android:textSize="12sp"
+
+             android:background="@drawable/custom_edittext"
+             android:text="Thanh toán Online"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_paymentOnffline_bill_to_payment"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="12sp"
+                android:layout_marginLeft="30dp"
+                android:textColor="@color/Orange"
+                android:background="@drawable/custom_edittext"
+                android:text="Thanh toán tiền mặt"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

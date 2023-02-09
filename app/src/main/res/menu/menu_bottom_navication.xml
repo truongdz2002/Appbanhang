@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/btn_home"
+        android:title="@string/btn_home"
+        android:icon="@drawable/ic_baseline_home_24"/>
+    <item android:id="@+id/btn_Endow"
+        android:title="@string/btn_Endow"
+        android:icon="@drawable/icon_endow"/>
+    <item android:id="@+id/btn_history_transaction"
+        android:title="@string/btn_history_transaction"
+        android:icon="@drawable/ic_baseline_history2"/>
+    <item android:id="@+id/btn_Notification"
+        android:title="@string/btn_notification"
+        android:icon="@drawable/ic_baseline_circle_notifications_24"/>
+    <item android:id="@+id/btn_Information"
+        android:title="@string/btn_Information"
+        android:icon="@drawable/ic_baseline_account_circle_24"/>
+</menu>

@@ -1,0 +1,44 @@
+package Object;
+
+public class Const {
+    public static final String Key_UserName="UserName";
+    public static final String Key_Message_Notification="Message_Notification";
+    public static final  String Key_Password="Password";
+    public static final String Key_Uid="Uid";
+    public static final String Key_Img_Avatar="Img_Avatar";
+    public static final String Key_FullName="FullName";
+    public static final String Key_Date_Of_Birth="DateOfBirth";
+    public static final String Key_Telephone_Number="PhoneNumber";
+    public static final String Key_Address="Address";
+    public static final String Key_View="View";
+    public static final String Key_SEND="Send";
+    public static final String Key_Id="Id";
+    public static final String UNSEND="unsend";
+    public static final String SENT="sent";
+    public static final String SEEN="seen";
+    public static final String NOTSEEN="notseen";
+    public static final String Key_Title_Notification="Title_Notification";
+    public static final String Key_BaseUrl="https://appbansmaytinh.000webhostapp.com";
+    public static final String Key_TextHistory="TextSearch";
+    public static  final String Key_ImgProduct="Img_product";
+    public static final String Key_Name_Product="Name_product";
+    public static final String Key_Price_Product="Price_Product";
+    public static final String Key_Money_User="Money";
+    public static final String Key_Code_Product="Code_Product";
+    public static final String Key_Amount="Amount";
+    public static final String Key_Color_Product="Color_Product";
+    public static final String Key_Delivery="Delivery";
+    public static final String Key_OrderDate="DateOrder";
+    public static final String Key_TotalMoney="TotalMoney";
+    public static final String Title_postNotification="Thanh toán mua hàng";
+    public static final String Key_PaymentMethod="PaymentMethod";
+    public static final String CHANNEL_ID_1 ="1" ;
+    public static final String CHANNEL_ID_2="2" ;
+    public static final int NOTIFICATION_ID_2=2 ;
+    public static final int NOTIFICATION_ID_1=1 ;
+    public static final String UnDilivery="UnDilivery";
+    public static final String Dilivered="Dilivered";
+    public static final String Key_Time_Push_notification="Time";
+    public static final String Message_postnotification="Tài khoản của bạn đã thanh toán sản phẩm ";
+    public static final String Key_UrlPathAvatar="https://appbansmaytinh.000webhostapp.com/Information/avatar/";
+}

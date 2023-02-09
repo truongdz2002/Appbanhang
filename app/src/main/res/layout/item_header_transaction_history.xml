@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Tháng 1 năm 2023"
+    android:textSize="28sp"
+    android:textColor="@color/black"
+    android:background="@color/Gray"
+    android:padding="16dp"
+    android:id="@+id/tv_header_time_transaction">
+
+
+
+
+</TextView>

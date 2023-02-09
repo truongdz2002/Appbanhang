@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">appElectronicdevicesalessoftware</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="btn_home">Trang chủ</string>
+    <string name="btn_history_transaction">Lịch sử GD</string>
+    <string name="btn_notification">Thông báo</string>
+    <string name="btn_Endow">Ưu đãi </string>
+    <string name="btn_Information">Cá nhân</string>
+    <string name="btn_Chatnow">Chat now</string>
+    <string name="btn_AddToCart">Add To Cart</string>
+    <string name="btn_BuyNow">Buy Now</string>
+    <string name="title_activity_history_search">ActivityHistorySearch</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

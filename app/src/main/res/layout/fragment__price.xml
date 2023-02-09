@@ -1,0 +1,33 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="Fragment.Fragment_Price">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Spinner
+                android:id="@+id/Spiner_Click_price"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="5dp"
+                android:contentDescription="@string/app_name"
+                android:minHeight="48dp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rcv_list_product_search_price"
+                android:layout_width="match_parent"
+                android:layout_below="@id/Spiner_Click_price"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</FrameLayout>

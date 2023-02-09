@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    tools:context=".ActivityProductDetail">
+    <LinearLayout
+        android:id="@+id/Content_Product_Detail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom_toolbar"
+        android:orientation="vertical">
+
+    </LinearLayout>
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar_product_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        app:menu="@menu/toolbar_product_detail">
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/btn_back_product_detail"
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_baseline_arrow_back_24" />
+
+    </com.google.android.material.appbar.MaterialToolbar>
+
+
+    <LinearLayout
+        android:id="@+id/bottom_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/nobackground"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/teal_200"
+            android:layout_weight="1"
+            android:layout_gravity="center">
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/nobackground"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ic_baseline_message_24"
+                tools:ignore="TouchTargetSizeCheck" />
+            <View
+                android:layout_width="2dp"
+                android:layout_height="30dp"
+                android:layout_margin="5dp"
+                android:background="@color/Gray" />
+            <ImageButton
+                android:id="@+id/btn_add_product_in_cart"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/nobackground"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ic_baseline_add_shopping_cart_24"
+                tools:ignore="TouchTargetSizeCheck" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/tv_Buy_now"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Mua ngay"
+                android:gravity="center"
+                android:background="@color/Orange"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

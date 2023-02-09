@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="Login.Activity_SignUp"
+    android:orientation="vertical"
+    android:background="@color/nobackground"
+    android:gravity="center">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thông tin đăng kí tài khoản"
+        android:textSize="35dp"
+        android:textColor="@color/black"
+        android:textStyle="italic"/>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_textview">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Tài khoản:"
+            android:layout_marginLeft="5dp"
+            android:textColor="#000"
+            android:backgroundTint="@color/nobackground"
+            android:textSize="15dp"
+            android:background="@color/nobackground"
+            />
+        <EditText
+            android:id="@+id/edt_Username_SignUp"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:textStyle="normal"
+            android:layout_marginLeft="15dp"
+            android:textSize="18dp"
+            android:background="@color/nobackground"
+            android:inputType="textEmailAddress"
+            android:hint="Nhâp tên đăng kí"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_textview">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Mật khẩu:"
+            android:background="@color/nobackground"
+            android:layout_marginLeft="5dp"
+            android:textColor="#000"
+            android:textSize="15dp"/>
+        <EditText
+            android:id="@+id/edt_Password_SignUp"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:textStyle="normal"
+            android:layout_marginLeft="15dp"
+            android:textSize="18dp"
+            android:background="@color/nobackground"
+            android:inputType="textPassword"
+            android:hint="Nhập mật khẩu"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_textview">
+        <TextView
+            android:layout_width="100dp"
+            android:background="@color/nobackground"
+            android:layout_height="55dp"
+            android:text="Nhập lại mật khẩu:"
+            android:layout_marginLeft="5dp"
+            android:textColor="#000"
+            android:textSize="15dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"/>
+        <EditText
+            android:id="@+id/edt_Cofirmpassword_SignUp"
+            android:layout_width="280dp"
+            android:layout_height="55dp"
+            android:textStyle="normal"
+            android:layout_marginLeft="15dp"
+            android:textSize="18dp"
+            android:background="@color/nobackground"
+            android:inputType="textPassword"
+            android:hint="Xác nhận mật khẩu"/>
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_Register"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/custom_button"
+        android:text="Đăng kí"
+        android:textColor="@color/black"/>
+
+
+
+
+
+</LinearLayout>

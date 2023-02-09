@@ -1,0 +1,65 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/custom_botom_sheet_delete_notification">
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+    <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:padding="20dp">
+
+      <ImageButton
+          android:id="@+id/btn_delete_notification"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="@color/nobackground"
+          android:contentDescription="@string/app_name"
+          android:src="@drawable/ic_baseline_delete_outline_24"
+          tools:ignore="TouchTargetSizeCheck" />
+      <TextView
+          android:layout_marginLeft="10dp"
+          android:textSize="14sp"
+          android:textColor="@color/black"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Xóa thông báo"/>
+  </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/Gray"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+        <ImageButton
+            android:id="@+id/btn_cancel_delete_notification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/nobackground"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_baseline_close_24"
+            tools:ignore="TouchTargetSizeCheck" />
+        <TextView
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hủy"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/Gray"/>
+
+
+  </LinearLayout>
+
+</LinearLayout>

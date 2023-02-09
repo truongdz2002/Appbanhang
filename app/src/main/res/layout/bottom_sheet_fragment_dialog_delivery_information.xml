@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageButton
+        android:id="@+id/btn_Closs_delivery_information"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/nobackground"
+        android:contentDescription="@string/app_name"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        android:src="@drawable/ic_baseline_expand_more_24" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:orientation="vertical"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thông Tin Giao Hàng "
+            android:textSize="35dp"
+            android:textColor="@color/Orange"
+            android:textStyle="italic"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(Bạn có thể sửa thông tin giao hàng) "
+            android:textSize="13sp"
+            android:textColor="@color/Gray"
+            android:textStyle="italic"/>
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_avatar"
+            android:layout_margin="5dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/logo"/>
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_textview">
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Họ và tên:"
+                android:layout_marginLeft="5dp"
+                android:textColor="#000"
+                android:backgroundTint="@color/nobackground"
+                android:textSize="15dp"
+                android:background="@color/nobackground"
+                />
+            <EditText
+                android:id="@+id/edt_FullName_delivery_information"
+                android:layout_width="280dp"
+                android:layout_height="50dp"
+                android:textStyle="normal"
+                android:layout_marginLeft="15dp"
+                android:textSize="18dp"
+                android:background="@color/nobackground"
+                android:inputType="textAutoComplete"
+                android:hint="Nhâp đầy đủ thông tin"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_textview">
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_textview">
+            <TextView
+                android:layout_width="100dp"
+                android:background="@color/nobackground"
+                android:layout_height="55dp"
+                android:text="Số điện thoại:"
+                android:layout_marginLeft="5dp"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"/>
+            <EditText
+                android:id="@+id/edt_TelephoneNumber_delivery_information"
+                android:layout_width="280dp"
+                android:layout_height="55dp"
+                android:textStyle="normal"
+                android:layout_marginLeft="15dp"
+                android:textSize="18dp"
+                android:background="@color/nobackground"
+                android:inputType="number"
+                android:hint="Nhập ở đây"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_textview">
+            <TextView
+                android:layout_width="100dp"
+                android:background="@color/nobackground"
+                android:layout_height="55dp"
+                android:text="Địa chỉ:"
+                android:layout_marginLeft="5dp"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"/>
+            <EditText
+                android:id="@+id/edt_Address_delivery_information"
+                android:layout_width="280dp"
+                android:layout_height="55dp"
+                android:textStyle="normal"
+                android:layout_marginLeft="15dp"
+                android:textSize="18dp"
+                android:background="@color/nobackground"
+                android:inputType="textAutoComplete"
+                android:hint="Nhập ở đây"/>
+
+        </LinearLayout>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_Confirm_delivery_information"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/custom_button"
+            android:text="Xác nhận"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:background="@drawable/custom_edittext">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_logo"
+        android:scaleType="centerCrop"
+        android:layout_width="50dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="3dp"
+        android:layout_height="50dp"
+        android:src="@drawable/logo" />
+
+    <LinearLayout
+       android:id="@+id/ll1"
+       android:layout_marginLeft="10dp"
+       android:layout_toRightOf="@id/img_logo"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Mã hóa đơn:"
+           android:textColor="@color/black"/>
+       <TextView
+           android:id="@+id/tv_CodeBill_item_list_bill_monthly"
+           android:layout_width="wrap_content"
+           android:layout_marginLeft="3dp"
+           android:layout_height="wrap_content"
+           android:text="1"/>
+   </LinearLayout>
+   <LinearLayout
+   android:id="@+id/ll2"
+   android:layout_marginTop="7dp"
+       android:layout_marginLeft="10dp"
+   android:layout_toRightOf="@id/img_logo"
+    android:layout_below="@id/ll1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:id="@+id/tv_OrderDate_item_list_bill_monthly"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9:04 SA 18/12/2022"
+        android:textSize="10sp"/>
+
+</LinearLayout>
+    <TextView
+        android:id="@+id/tv_Total_monney_item_list_bill_monthly"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/ll2"
+        android:layout_toRightOf="@id/img_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Orange"
+        android:text="-17000000VND"
+        android:textSize="14sp"/>
+
+
+
+</RelativeLayout>

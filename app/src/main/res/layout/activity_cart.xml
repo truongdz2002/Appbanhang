@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityProductDetail">
+    <LinearLayout
+        android:id="@+id/top_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/Orange"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btn_back_cart"
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:background="@color/nobackground"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_baseline_arrow_back_24" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/nobackground">
+
+            <TextView
+                android:layout_width="235dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="5dp"
+                android:gravity="center_vertical"
+                android:text="Giỏ hàng"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/nobackground"
+            android:contentDescription="@string/app_name"
+            android:padding="2dp"
+            android:text="Sửa"
+            android:src="@drawable/ic_baseline_shopping_cart_24" />
+        <ImageButton
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginRight="1dp"
+            android:background="@color/nobackground"
+            android:layout_marginEnd="1dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_baseline_message_24" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom_toolbar"
+        android:layout_below="@+id/top_toolbar"
+        android:orientation="vertical">
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tablaout_cart"
+            android:layout_width="match_parent"
+            app:tabSelectedTextColor="@color/Orange"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name" />
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/vp_cart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/bottom_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/nobackground"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/nobackground"
+            android:layout_weight="1"
+            android:layout_gravity="center">
+
+            <androidx.appcompat.widget.AppCompatCheckBox
+                android:id="@+id/ck_Purchase_all_product_in_cart"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:text="Tất cả"
+                android:button="@drawable/custom_check_box"
+                android:textSize="16sp"
+
+                android:background="@color/nobackground"
+                android:contentDescription="@string/app_name"
+                tools:ignore="TouchTargetSizeCheck" />
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_weight="1"
+             android:orientation="horizontal">
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="match_parent"
+                 android:background="@color/nobackground"
+                 android:contentDescription="@string/app_name"
+                 android:gravity="center_vertical"
+                 android:textColor="@color/black"
+                 android:text="Tổng thanh toán:"
+                 android:textSize="11sp"
+                 tools:ignore="TouchTargetSizeCheck" />
+             <TextView
+             android:id="@+id/tv_Total_monney"
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:text=""
+             android:gravity="center_vertical"
+             android:textColor="@color/Orange"
+             android:textSize="11sp"
+             android:background="@color/nobackground"
+             android:contentDescription="@string/app_name"
+             tools:ignore="TouchTargetSizeCheck" />
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="match_parent"
+                 android:layout_weight="1"
+                 android:text="VND"
+                 android:layout_marginStart="2dp"
+                 android:gravity="center_vertical"
+                 android:textColor="@color/Orange"
+                 android:textSize="11sp"
+                 android:background="@color/nobackground"
+                 android:contentDescription="@string/app_name"
+                 tools:ignore="TouchTargetSizeCheck" />
+
+         </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+            <TextView
+                android:id="@+id/tv_Buy_product"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Mua ngay"
+                android:gravity="center"
+                android:background="@color/Orange"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

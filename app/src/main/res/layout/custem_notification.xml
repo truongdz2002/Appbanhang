@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:id="@+id/form_item_notification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/nobackground"
+        android:padding="10dp">
+
+
+    <LinearLayout
+        android:id="@+id/form_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_toStartOf="@id/btn_option_with_item_notification"
+        android:gravity="center">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_logo"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/logo"/>
+        <TextView
+            android:id="@+id/tv_Title_Service"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="11sp"
+            android:text="Thanh toán" />
+        <TextView
+            android:id="@+id/tv_time_send_notification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="11sp"
+            android:layout_marginLeft="5dp"
+            android:text="Chủ nhật,01/01" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/btn_option_with_item_notification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:background="@color/nobackground"
+        android:contentDescription="@string/app_name"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        android:src="@drawable/ic_baseline_more_horiz_24" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:layout_below="@id/form_title"
+        android:layout_marginStart="10dp">
+        <TextView
+            android:id="@+id/tv_Title_Notification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:text="@string/app_name" />
+
+        <TextView
+            android:id="@+id/tv_Message_Notification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:text="@string/app_name"/>
+
+    </LinearLayout>
+</RelativeLayout>
+</LinearLayout>

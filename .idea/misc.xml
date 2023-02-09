@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/PHUONG NAM/AndroidStudioProjects/appElectronicdevicesalessoftware2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1265" />
+        <entry key="..\:/Users/PHUONG NAM/AndroidStudioProjects/appElectronicdevicesalessoftware2/app/src/main/res/drawable/bg_indicator.xml" value="0.1265" />
+        <entry key="..\:/Users/PHUONG NAM/AndroidStudioProjects/appElectronicdevicesalessoftware2/app/src/main/res/drawable/bg_process_dialog.xml" value="0.115" />
+        <entry key="..\:/Users/PHUONG NAM/AndroidStudioProjects/appElectronicdevicesalessoftware2/app/src/main/res/drawable/button.xml" value="0.1265" />
+        <entry key="..\:/Users/PHUONG NAM/AndroidStudioProjects/appElectronicdevicesalessoftware2/app/src/main/res/drawable/custom_button.xml" value="0.1725" />
+        <entry key="..\:/Users/PHUONG NAM/AndroidStudioProjects/appElectronicdevicesalessoftware2/app/src/main/res/drawable/custom_button_dialog.xml" value="0.1725" />
+        <entry key="..\:/Users/PHUONG NAM/AndroidStudioProjects/appElectronicdevicesalessoftware2/app/src/main/res/drawable/custom_dialog.xml" value="0.1725" />
+        <entry key="..\:/Users/PHUONG NAM/AndroidStudioProjects/appElectronicdevicesalessoftware2/app/src/main/res/drawable/custom_dialog2.xml" value="0.1725" />
+        <entry key="..\:/Users/PHUONG NAM/AndroidStudioProjects/appElectronicdevicesalessoftware2/app/src/main/res/drawable/custom_dialog_textviewnew.xml" value="0.1725" />
+        <entry key="..\:/Users/PHUONG NAM/AndroidStudioProjects/appElectronicdevicesalessoftware2/app/src/main/res/drawable/custom_edittext.xml" value="0.1" />
+        <entry key="..\:/Users/PHUONG NAM/AndroidStudioProjects/appElectronicdevicesalessoftware2/app/src/main/res/drawable/custom_indicator.xml" value="0.1" />
+        <entry key="..\:/Users/PHUONG NAM/AndroidStudioProjects/appElectronicdevicesalessoftware2/app/src/main/res/drawable/custom_toolbar_history.xml" value="0.152" />
+        <entry key="..\:/Users/PHUONG NAM/AndroidStudioProjects/appElectronicdevicesalessoftware2/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.1725" />
+        <entry key="..\:/Users/PHUONG NAM/AndroidStudioProjects/appElectronicdevicesalessoftware2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1265" />
+        <entry key="..\:/Users/PHUONG NAM/AndroidStudioProjects/appElectronicdevicesalessoftware2/app/src/main/res/drawable/ic_shopping.xml" value="0.1265" />
+        <entry key="..\:/Users/PHUONG NAM/AndroidStudioProjects/appElectronicdevicesalessoftware2/app/src/main/res/layout/activity_detail.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/PHUONG NAM/AndroidStudioProjects/appElectronicdevicesalessoftware2/app/src/main/res/layout/activity_history_search.xml" value="0.22" />
+        <entry key="..\:/Users/PHUONG NAM/AndroidStudioProjects/appElectronicdevicesalessoftware2/app/src/main/res/layout/activity_information.xml" value="0.33" />
+        <entry key="..\:/Users/PHUONG NAM/AndroidStudioProjects/appElectronicdevicesalessoftware2/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/PHUONG NAM/AndroidStudioProjects/appElectronicdevicesalessoftware2/app/src/main/res/layout/activity_main.xml" value="0.16" />
+        <entry key="..\:/Users/PHUONG NAM/AndroidStudioProjects/appElectronicdevicesalessoftware2/app/src/main/res/layout/activity_main2.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/PHUONG NAM/AndroidStudioProjects/appElectronicdevicesalessoftware2/app/src/main/res/layout/activity_product_detail.xml" value="0.2" />
+        <entry key="..\:/Users/PHUONG NAM/AndroidStudioProjects/appElectronicdevicesalessoftware2/app/src/main/res/layout/activity_product_search.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/PHUONG NAM/AndroidStudioProjects/appElectronicdevicesalessoftware2/app/src/main/res/layout/activity_sign_up.xml" value="0.29809725158562367" />
+        <entry key="..\:/Users/PHUONG NAM/AndroidStudioProjects/appElectronicdevicesalessoftware2/app/src/main/res/layout/activity_splash.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/PHUONG NAM/AndroidStudioProjects/appElectronicdevicesalessoftware2/app/src/main/res/layout/activity_update_informations.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/PHUONG NAM/AndroidStudioProjects/appElectronicdevicesalessoftware2/app/src/main/res/layout/advertisement.xml" value="0.18541666666666667" />
+        <entry key="..\:/Users/PHUONG NAM/AndroidStudioProjects/appElectronicdevicesalessoftware2/app/src/main/res/layout/custem_lines.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/PHUONG NAM/AndroidStudioProjects/appElectronicdevicesalessoftware2/app/src/main/res/layout/fragment__advertisement.xml" value="0.1995831162063575" />
+        <entry key="..\:/Users/PHUONG NAM/AndroidStudioProjects/appElectronicdevicesalessoftware2/app/src/main/res/layout/fragment__home.xml" value="0.18" />
+        <entry key="..\:/Users/PHUONG NAM/AndroidStudioProjects/appElectronicdevicesalessoftware2/app/src/main/res/layout/fragment__information.xml" value="0.1" />
+        <entry key="..\:/Users/PHUONG NAM/AndroidStudioProjects/appElectronicdevicesalessoftware2/app/src/main/res/layout/fragment__live.xml" value="0.1" />
+        <entry key="..\:/Users/PHUONG NAM/AndroidStudioProjects/appElectronicdevicesalessoftware2/app/src/main/res/layout/fragment__notification.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/PHUONG NAM/AndroidStudioProjects/appElectronicdevicesalessoftware2/app/src/main/res/layout/fragment__price.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/PHUONG NAM/AndroidStudioProjects/appElectronicdevicesalessoftware2/app/src/main/res/layout/fragment__product__detail.xml" value="0.25" />
+        <entry key="..\:/Users/PHUONG NAM/AndroidStudioProjects/appElectronicdevicesalessoftware2/app/src/main/res/layout/fragment__relate__to.xml" value="0.1" />
+        <entry key="..\:/Users/PHUONG NAM/AndroidStudioProjects/appElectronicdevicesalessoftware2/app/src/main/res/layout/fragment__selling.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/PHUONG NAM/AndroidStudioProjects/appElectronicdevicesalessoftware2/app/src/main/res/layout/fragment_first.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/PHUONG NAM/AndroidStudioProjects/appElectronicdevicesalessoftware2/app/src/main/res/layout/item_1_fragment_inforcation.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/PHUONG NAM/AndroidStudioProjects/appElectronicdevicesalessoftware2/app/src/main/res/layout/item_1_fragment_information.xml" value="0.1" />
+        <entry key="..\:/Users/PHUONG NAM/AndroidStudioProjects/appElectronicdevicesalessoftware2/app/src/main/res/layout/item_2_fragment_inforcation.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/PHUONG NAM/AndroidStudioProjects/appElectronicdevicesalessoftware2/app/src/main/res/layout/item__advertisement.xml" value="0.1" />
+        <entry key="..\:/Users/PHUONG NAM/AndroidStudioProjects/appElectronicdevicesalessoftware2/app/src/main/res/layout/item_advertisement.xml" value="0.1" />
+        <entry key="..\:/Users/PHUONG NAM/AndroidStudioProjects/appElectronicdevicesalessoftware2/app/src/main/res/layout/item_frament_information_option_setup.xml" value="0.18541666666666667" />
+        <entry key="..\:/Users/PHUONG NAM/AndroidStudioProjects/appElectronicdevicesalessoftware2/app/src/main/res/layout/item_frament_information_profile.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/PHUONG NAM/AndroidStudioProjects/appElectronicdevicesalessoftware2/app/src/main/res/layout/item_printer_sort_price.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/PHUONG NAM/AndroidStudioProjects/appElectronicdevicesalessoftware2/app/src/main/res/layout/item_product.xml" value="0.33" />
+        <entry key="..\:/Users/PHUONG NAM/AndroidStudioProjects/appElectronicdevicesalessoftware2/app/src/main/res/layout/item_rcv.xml" value="0.1" />
+        <entry key="..\:/Users/PHUONG NAM/AndroidStudioProjects/appElectronicdevicesalessoftware2/app/src/main/res/layout/item_search_history.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/PHUONG NAM/AndroidStudioProjects/appElectronicdevicesalessoftware2/app/src/main/res/layout/notification_nointernet.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/PHUONG NAM/AndroidStudioProjects/appElectronicdevicesalessoftware2/app/src/main/res/layout/set_content_processdialog.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/PHUONG NAM/AndroidStudioProjects/appElectronicdevicesalessoftware2/app/src/main/res/menu/menu_bottom_navication.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
